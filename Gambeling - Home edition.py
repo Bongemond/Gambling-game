@@ -550,12 +550,16 @@ def startgambling():
         global fired
         global strikes
         global money
+        global luck
+        global cashout
         loan = 0
         loans = 0
         loanpayment = 0
         fired = False
         strikes = 0
         money = 100
+        luck = 0
+        cashout = 0
         return startgambling()
     def DaJob():
         global money
